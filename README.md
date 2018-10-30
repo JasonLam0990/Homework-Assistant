@@ -24,6 +24,15 @@
  
 </div>
 
+<br>
+
+<div style="display:flex;justify-content:space-around;"> 
+ 
+ <img src="/images/setmanager.jpg" margin=20% width=30% />
+ <img src="/images/managerclass.jpg" margin=20% width=30% />
+ 
+</div>
+
 #### 2018年8月23日 星期四
 
 1.设计项目的UI布局<br>
@@ -77,5 +86,3 @@
 #### 2018年10月30日 星期二 V1.5
 1.增加了修改班级名称的功能，并对界面有一定的改动。<br>
 2.设置管理员的界面为开启了服务号消息提醒的用户增加了一个标识。<br>
-1.增加了修改班级名称的功能，并对界面有一定的改动。<br>管理
-1.增加了修改班级名称的功能，并对界面有一定的改动。<br>
