@@ -9,29 +9,23 @@
 ### 主要功能页面展示
 
 <div style="display:flex;justify-content:space-around;"> 
-
  <img src="/images/bg.png" margin=20% width=30% />
  <img src="/images/myclass.png" margin=20% width=30% />
  <img src="/images/myhomework.jpg" margin=20% width=30% />
- 
 </div>
 
 <div style="display:flex;justify-content:space-around;"> 
- 
  <img src="/images/workdetails.jpg" margin=20% width=30% />
  <img src="/images/announce.png" margin=20% width=30% />
- <img src="/images/set.png" margin=20% width=30% />
- 
+ <img src="/images/add.png" margin=20% width=30% />
 </div>
 
 <br>
 
 <div style="display:flex;justify-content:space-around;"> 
- 
+ <img src="/images/set.png" margin=20% width=30% />
  <img src="/images/setmanager.jpg" margin=20% width=30% />
  <img src="/images/managerclass.jpg" margin=20% width=30% />
- <img src="/images/add.png" margin=20% width=30% />
- 
 </div>
 
 #### 2018年8月23日 星期四
