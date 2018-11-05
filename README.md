@@ -30,6 +30,7 @@
  
  <img src="/images/setmanager.jpg" margin=20% width=30% />
  <img src="/images/managerclass.jpg" margin=20% width=30% />
+ <img src="/images/add.png" margin=20% width=30% />
  
 </div>
 
