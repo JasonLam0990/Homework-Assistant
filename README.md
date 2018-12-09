@@ -106,3 +106,15 @@
 <center>
  <img src="/images/share.jpg" margin=20% width=30% />
 </center>
+
+#### 2018年11月18日 星期天 V1.75
+
+1.增加了网络状况不好时的提示。<br>
+2.增加了图片转文字的功能，学委可以在发布作业的时候使用。同时也作为一个小实用工具，可以在“我的”页面使用。<br>
+3.修复了发布作业时，偶尔会发生图片上传失败的bug。<br>
+
+<div style="display:flex;justify-content:space-around;"> 
+ <img src="/images/pictotext.jpg" margin=20% width=30% />
+ <img src="/images/origin.jpg" margin=20% width=30% />
+ <img src="/images/result.jpg" margin=20% width=30% />
+</div>
