@@ -118,3 +118,17 @@
  <img src="/images/origin.jpg" margin=20% width=30% />
  <img src="/images/result.jpg" margin=20% width=30% />
 </div>
+
+#### 2018年12月20日 星期四 V1.8
+
+1.增加了"添加到我的小程序"的引导。<br>
+2.增加了"开启作业提醒"的公众号引导。<br>
+3.增加了语音输入文字的功能，学委发布作业可以更方便<br>
+4.增加了催收作业的提醒功能，学委消息提醒能力再升级，并且支持自定义催收作业模板。<br>
+5.作业提醒时间由提前两天提醒一次，改成提前三天、提前一天各提醒一次。<br>
+6.增加了更新功能的介绍以及“我要反馈”页面中的公众号关注引导。<br>
+
+<div style="display:flex;justify-content:space-around;"> 
+ <img src="/images/urge.jpg" margin=20% width=30% />
+ <img src="/images/voice.jpg" margin=20% width=30% />
+</div>
