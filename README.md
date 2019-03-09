@@ -132,3 +132,17 @@
  <img src="/images/urge.jpg" margin=20% width=30% />
  <img src="/images/voice.jpg" margin=20% width=30% />
 </div>
+
+#### 2019年3月9日 星期六 V1.9
+
+1.学委发布作业时支持使用日历来选择日期，发布作业更方便！<br>
+2.新增了新用户进入会默认加入的功能展示班级，并在作业中进行了相关引导。<br>
+3.增加了语音输入文字的功能，学委发布作业可以更方便<br>
+4.偏好设置中【只看进行中的作业】由原本依赖本地缓存改为服务器存储偏好信息，防止更新小程序时会清空本地缓存，给用户带来不便。<br>
+5.修复了有时候首页会一直显示加载中，但却没有加载出班级列表的Bug。这个Bug困扰好久了一直没有解决，这次终于给我找出来了。其实就是一个异步的问题，当app.js中openId还没有获取到并赋值给globalData的时候，index页面就已经加载好了，这样的话数据就拿不到了，而函数只能调用一次，所以就造成了一直打转却没有加载出数据的表象。我主要是采用了轮询的方法，有点笨。首先是把请求数据的都整合到一个loaddata()函数中，然后如果index页面加载好时openId也有了那就正常调用loaddata()，否则就setTimeout 0.3s再次询问openId是否加载好，好了的就调用loaddata()，否则继续嵌套0.7s,最后一个嵌套是2.5s，基本上就覆盖了所有的可能请求时间了。<br>
+6.在【我的】-【关于我们】页面添加了赞赏码。<br>
+
+<div style="display:flex;justify-content:space-around;"> 
+ <img src="/images/calendar_1.png" margin=20% width=30% />
+ <img src="/images/calendar_2.png" margin=20% width=30% />
+</div>
