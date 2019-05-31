@@ -28,6 +28,17 @@
  <img src="/images/managerclass.jpg" margin=20% width=30% />
 </div>
 
+<div style="display:flex;justify-content:space-around;"> 
+ <img src="/images/set.png" margin=20% width=30% />
+ <img src="/images/setmanager.jpg" margin=20% width=30% />
+ <img src="/images/managerclass.jpg" margin=20% width=30% />
+</div>
+
+<div style="display:flex;justify-content:space-around;"> 
+ <img src="/images/guide.png" margin=20% width=40% />
+ <img src="/images/notice.jpg" margin=20% width=40% />
+</div>
+
 #### 2018年8月23日 星期四
 
 1.设计项目的UI布局<br>
