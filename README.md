@@ -28,16 +28,13 @@
  <img src="/images/managerclass.jpg" margin=20% width=30% />
 </div>
 
-<div style="display:flex;justify-content:space-around;"> 
- <img src="/images/set.png" margin=20% width=30% />
- <img src="/images/setmanager.jpg" margin=20% width=30% />
- <img src="/images/managerclass.jpg" margin=20% width=30% />
-</div>
+<center>
+ <img src="/images/guide.png" margin=20% width=90% />
+</center>
 
-<div style="display:flex;justify-content:space-around;"> 
- <img src="/images/guide.png" margin=20% width=40% />
- <img src="/images/notice.jpg" margin=20% width=40% />
-</div>
+<center>
+ <img src="/images/notice.png" margin=20% width=60% />
+</center>
 
 #### 2018年8月23日 星期四
 
@@ -165,3 +162,11 @@
  <img src="/images/calendar_2.png" margin=20% width=30% />
  <img src="/images/appreciate.jpg" margin=20% width=30% />
 </div>
+
+#### 2019年5月31日 星期五 V2.0-V2.1
+
+1.新用户高亮提示中新增“点击作业卡片查看作业详情”，因为作业卡片上其实并没有专门设置一个箭头之类的点击引导标志<br>
+2.修复了功能按钮会遮挡到作业详情相关字段的问题。<br>
+3.修复了有些文件无法打开，其实是后台接受文件名的时候没有对空格等字符进行转义，加上转义就好了<br>
+4.修复了新用户功能提示会反复出现的问题。原因是原本的判断Flag是基于本地缓存的，但是每次更新新版本就会清空本地缓存，导致Flag丢失，给用户带来困扰。现在将Flag作为一个字段放在后台，就解决了<br>
+5.增加了合作伙伴“萌芽习惯”的导流跳转按钮<br>
